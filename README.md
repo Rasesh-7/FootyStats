@@ -11,8 +11,8 @@ Powered by the **Football-Data API**.
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/home.jpeg" width="1080" alt="Home Screen">
-  <img src="screenshots/details.jpeg" width="1080" alt="Competition Details">
+  <img src="screenshots/home.jpeg" width="300" alt="Home Screen">
+  <img src="screenshots/details.jpeg" width="300" alt="Competition Details">
 </p>
 
 ---
