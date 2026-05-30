@@ -19,7 +19,10 @@ android {
         versionCode = 1
         versionName = "1.0"
 
-        val apiKey = project.findProperty("FOOTBALL_API_KEY")?.toString() ?: ""
+        val apiKey = project.findProperty("FOOTBALL_API_KEY")
+            ?: throw GradleException(
+                "FOOTBALL_API_KEY not found. Please add it to gradle.properties."
+            )
         buildConfigField(
             "String",
             "FOOTBALL_API_KEY",
